@@ -144,3 +144,121 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.top-child{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.big-image{
+    padding-bottom: 50px;
+}
+
+#box1{
+    background: teal;
+}
+#box2{
+    background: gold;
+}
+#box3{
+    background: cadetblue;
+}
+#box4{
+    background: coral;
+}
+#box5{
+    background: crimson;
+}
+#box6{
+    background: forestgreen;
+}
+#box7{
+    background: darkorchid;
+}
+#box8{
+    background: hotpink;
+}
+#box9{
+    background: indigo;
+}
+#box10{
+    background: dodgerblue;
+}
+
+.about-top{
+    border-bottom: 1px dashed black;
+    padding-left: 3%;
+    text-align: left;
+}
+
+.about-middle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding-left: 1%;
+}
+.middle-child{
+    width: 46%;
+    border-bottom: 1px dashed black;
+    margin-right: 10px;
+}
+
+h3{
+    padding-top: 10px;
+}
+
+.flex-img{
+    padding-top: 25px;
+}
+
+.flex-button{
+    margin-bottom: 15px;
+    display: inline-block;
+    border-radius: 12px;
+    border: solid 3px black;
+    text-align: center;
+    font-size: 20px;
+    padding: 2px 15px 2px 15px;  
+}
+
+.about-bottom{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 3%;
+    background-color: white;
+    text-align: left;
+}
+
+@keyframes stretch{
+    0% {background-color: white;}
+    10% {background-color: red;}  
+    20% {background-color: royalblue;}
+    30% {background-color: seagreen;}
+    40%{background-color: purple;}
+    50%{background-color: sienna;}
+    60%{background-color: slateblue;}
+    70%{background-color: teal;}
+    80%{background-color: yellow;}
+    90%{background-color: violet;}
+    100%{background-color: white;}
+}
+
+.flex-button:hover{
+    animation-name: stretch;
+    animation-duration: 10s;
+}
+
+
+
+
+
